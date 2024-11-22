@@ -63,7 +63,7 @@ try:
 
 	print(f"Download concluído! Registros baixados: {len(df)}")
 
-	print("Arquivo salvo em: bigdata/tabela.csv")
+	print("Arquivo salvo em: data/tabela.csv")
 
 except  Exception  as  e:
 
