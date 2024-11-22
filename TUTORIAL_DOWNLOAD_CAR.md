@@ -18,7 +18,11 @@
 ### 1. Instalação do Google Cloud SDK
 
 1. Baixe o instalador do [Google Cloud SDK](https://cloud.google.com/sdk/docs/install#windows)
-2. Execute o instalador e marque a opção "Adicionar ao PATH"
+2. Execute no CMD
+   ```cmd
+   (New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")
+   ```
+3. Execute o instalador e marque a opção "Adicionar ao PATH"
 
 ### 2. Configuração do Ambiente Python
 
